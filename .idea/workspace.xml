@@ -10,30 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db5ffc37-c376-4d16-9a98-5b833aed7b4e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/lib/fatSaw.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/lib/fullSine.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168_pinChangeInterrupt.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_IR_Remote.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_PWM.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_SerialIO2.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_dds.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_dds_fatSaw.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_digitalInput.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_hBridge.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_helloInterrupt.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_i2cThermoMeter.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_joyStick2D.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_progMem.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_pwmOnAnyPin.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_pwmTimer.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_reactionTimer.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_serialIO.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_slowScope.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/support.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/support.h" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/lib/common.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/lib/common.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/lib/ir_ctrl.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/lib/ir_ctrl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/lib/sw.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/lib/sw.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168_ledgame.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_POVDisplay.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_RFID_reader.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_dcMotorWorkout.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_footStepDetector.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_ir_remocon.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_keypad4x4.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/tiny2313/tiny2313_LEDtest.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/tiny2313/tiny2313_PWM.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/tiny2313/tiny2313_simpleTimer.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AVRPrograming/tiny2313/tiny2313_switchCounter.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/AVRPrograming/mega168p/168p_serialOrgan.c" afterPath="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_serialOrgan.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AVRPrograming/main.cpp" afterPath="$PROJECT_DIR$/AVRPrograming/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,28 +40,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="mega168p_reactionTimer.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_reactionTimer.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,18 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AVRPrograming/amRadio_mega168p.c" />
-        <option value="$PROJECT_DIR$/AVRPrograming/ADC_LightSensor_Mega168.c" />
-        <option value="$PROJECT_DIR$/AVRPrograming/mega168p_blinkLED.c" />
-        <option value="$PROJECT_DIR$/AVRPrograming/mega168p_cylonEyes.cpp" />
-        <option value="$PROJECT_DIR$/AVRPrograming/mega168p_USART.cpp" />
-        <option value="$PROJECT_DIR$/AVRPrograming/mega168_IR.c" />
-        <option value="$PROJECT_DIR$/AVRPrograming/mega168p_POVTOY.cpp" />
-        <option value="$PROJECT_DIR$/AVRPrograming/mega168p_showingOffBits.cpp" />
-        <option value="$PROJECT_DIR$/AVRPrograming/mega168p_USART.c" />
-        <option value="$PROJECT_DIR$/AVRPrograming/mega169p_voltMeter.c" />
-        <option value="$PROJECT_DIR$/AVRPrograming/mega168p_ADC_LightSensor.c" />
-        <option value="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_ADC_LightSensor.c" />
         <option value="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_timerAudio.c" />
         <option value="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_stopWatch.c" />
         <option value="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_SPILCD.c" />
@@ -123,6 +86,19 @@
         <option value="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_hBridge.c" />
         <option value="$PROJECT_DIR$/AVRPrograming/mega168p/support.h" />
         <option value="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_reactionTimer.c" />
+        <option value="$PROJECT_DIR$/AVRPrograming/attiny2313/attiny2313_LEDtest.c" />
+        <option value="$PROJECT_DIR$/AVRPrograming/tiny2313/tiny2313_LEDtest.c" />
+        <option value="$PROJECT_DIR$/AVRPrograming/tiny2313/tiny2313_PWM.c" />
+        <option value="$PROJECT_DIR$/AVRPrograming/tiny2313/tiny2313_simpleTimer.c" />
+        <option value="$PROJECT_DIR$/AVRPrograming/tiny2313/tiny2313_switchCounter.c" />
+        <option value="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_POVDisplay.c" />
+        <option value="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_RFID_reader.c" />
+        <option value="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_ir_remocon.c" />
+        <option value="$PROJECT_DIR$/AVRPrograming/lib/sw.c" />
+        <option value="$PROJECT_DIR$/AVRPrograming/mega168p/mega168_ledgame.c" />
+        <option value="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_footStepDetector.c" />
+        <option value="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_keypad4x4.c" />
+        <option value="$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_dcMotorWorkout.c" />
       </list>
     </option>
   </component>
@@ -133,8 +109,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="734" />
-    <option name="y" value="107" />
+    <option name="x" value="377" />
+    <option name="y" value="188" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -160,6 +136,11 @@
               <item name="EXAMPLE" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="AVRprogramming" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="EXAMPLE" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="AVRprogramming" type="462c0819:PsiDirectoryNode" />
+              <item name="AVRPrograming" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -174,6 +155,8 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/AVRPrograming/mega168p" />
       <recent name="$PROJECT_DIR$/AVRPrograming/lib" />
+      <recent name="$PROJECT_DIR$/AVRPrograming/tiny2313" />
+      <recent name="$PROJECT_DIR$/AVRPrograming/attiny2313" />
       <recent name="$PROJECT_DIR$/AVRPrograming" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -204,24 +187,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506911281995</updated>
-      <workItem from="1506911284465" duration="9835000" />
+      <workItem from="1506911284465" duration="10864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9835000" />
+    <option name="totallyTimeSpent" value="10864000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="734" y="107" width="1400" height="1000" extended-state="0" />
+    <frame x="377" y="188" width="1400" height="1000" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23932253" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23932253" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4387755" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3628118" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3628118" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -245,150 +228,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AVRPrograming/mega168p/spilcd_rtc.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVRPrograming/lib/scale.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/7.0/dds_adsr_mega168/dds_adsr_mega168/macros.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVRPrograming/lib/scale8.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVRPrograming/lib/scale16.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-223">
-          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVRPrograming/lib/adsr.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-358">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVRPrograming/lib/fullSaw15.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVRPrograming/lib/fullTri15.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVRPrograming/lib/fullTriangle.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/7.0/dds_fatSaw_mega168p/dds_fatSaw_mega168p/macros.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_dds_fatSaw.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVRPrograming/lib/fatSaw.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVRPrograming/lib/fullSaw7.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_dds_adsr.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVRPrograming/lib/fullTri3.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVRPrograming/lib/fullTri7.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AVRPrograming/lib/fullSine.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/7.0/dds_mega168p/dds_mega168p/fullSine.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_dds.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -533,14 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/7.0/LEDGame_mega168p/LEDGame_mega168p/ledgame.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_joyStick2D.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -576,14 +407,6 @@
     <entry file="file://$PROJECT_DIR$/AVRPrograming/lib/remote.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6109">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/7.0/IR_Remokon_mega168p/IR_Remokon_mega168p/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -637,18 +460,180 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_reactionTimer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/7.0/attiny2343p_1/attiny2343p_1/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_reactionTimer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVRPrograming/tiny2313/tiny2313_PWM.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVRPrograming/tiny2313/tiny2313_LEDtest.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVRPrograming/tiny2313/tiny2313_switchCounter.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVRPrograming/tiny2313/tiny2313_simpleTimer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/7.0/POVDisplayAll/POVDisplayAll/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_POVDisplay.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_RFID_reader.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/7.0/IR_Remokon_mega168p/IR_Remokon_mega168p/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVRPrograming/lib/ir_ctrl.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVRPrograming/lib/ir_ctrl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_ir_remocon.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="182" column="23" lean-forward="false" selection-start-line="182" selection-start-column="23" selection-end-line="182" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/7.0/LEDGame_mega168p/LEDGame_mega168p/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3692">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/7.0/LEDGame_mega168p/LEDGame_mega168p/ledgame.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4548">
+          <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVRPrograming/lib/sw.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <marker date="1162796318000" expanded="true" signature="662:664" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVRPrograming/lib/sw.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168_ledgame.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="239" column="20" lean-forward="false" selection-start-line="239" selection-start-column="20" selection-end-line="239" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_footStepDetector.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_dcMotorWorkout.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_keypad4x4.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding />
         </state>
       </provider>
