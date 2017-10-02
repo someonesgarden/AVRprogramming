@@ -14,3 +14,6 @@ Device ProgrammingのFusesにCKDIV8のチェックボックスがある。
 #### atmega168pの場合の※デフォルト値は以下：
 - Int.RC Osc 8MHz; Start-up Time PWRDWN/RESET; 6CK/14CK+0ms;
 -  表記は「INTRCOSC_8MHZ_6CK_14CK_0MS」
+
+#### 実行の方法
+各機能を持ったprogramがAVRタイプ名のかかれたフォルダ内にあるので使用時にexec内にaddしてmain.cppで起動する

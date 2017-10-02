@@ -1,28 +1,19 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=/Users/user/CLionProjects/cmake-avr/generic-gcc-avr.cmake -G "CodeBlocks - Unix Makefiles" /Users/user/CLionProjects/AVRprogramming
--- The C compiler identification is GNU 7.2.0
--- The CXX compiler identification is GNU 7.2.0
--- Check for working C compiler: /usr/local/bin/avr-gcc
--- Check for working C compiler: /usr/local/bin/avr-gcc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /usr/local/bin/avr-g++
--- Check for working CXX compiler: /usr/local/bin/avr-g++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Current uploadtool is: avrdude
--- Current programmer is: avrispmkII
--- Current upload port is: usb
--- Current uploadtool options are: 
--- Current MCU is set to: atmega8
--- Current H_FUSE is set to: 0xd9
--- Current L_FUSE is set to: 0xc3
-CMake Error at CMakeLists.txt:79 (message):
-  Please set AVR_FIND_ROOT_PATH in your environment.
+"C:\Program Files\JetBrains\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=/Users/user/CLionProjects/cmake-avr/generic-gcc-avr.cmake -G "CodeBlocks - MinGW Makefiles" "C:\Users\someonesgarden\Documents\Atmel Studio\7.0\AVRprogramming"
+CMake Error at C:/Program Files/JetBrains/CLion 2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeMinGWFindMake.cmake:12 (message):
+  sh.exe was found in your PATH, here:
+
+  C:/WinAVR-20100110/utils/bin/sh.exe
+
+  For MinGW make to work correctly sh.exe must NOT be in your path.
+
+  Run cmake from a shell that does not have sh.exe in your PATH.
+
+  If you want to use a UNIX shell, then use MSYS Makefiles.
+
+Call Stack (most recent call first):
+  CMakeLists.txt:39 (project)
 
 
+CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage
 -- Configuring incomplete, errors occurred!
-See also "/Users/user/CLionProjects/AVRprogramming/cmake-build-debug/CMakeFiles/CMakeOutput.log".

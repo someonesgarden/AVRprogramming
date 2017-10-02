@@ -6,13 +6,11 @@
  */ 
 
 #include <avr/io.h>
+#include "exec/mega168p_POVTOY.h"
+
 
 int main(void)
 {
-    /* Replace with your application code */
-
-    while (1) 
-    {
-    }
+    mega168p_POVTOY();
 }
 
