@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db5ffc37-c376-4d16-9a98-5b833aed7b4e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -28,8 +27,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="452">
-                <caret line="79" column="18" lean-forward="false" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+              <first_editor relative-caret-position="272">
+                <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -200,12 +199,12 @@
       <workItem from="1506948256317" duration="312000" />
       <workItem from="1506949879160" duration="2335000" />
       <workItem from="1506952466747" duration="7000" />
-      <workItem from="1506952491202" duration="1003000" />
+      <workItem from="1506952491202" duration="1167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16931000" />
+    <option name="totallyTimeSpent" value="17095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="221" y="0" width="1400" height="1087" extended-state="0" />
@@ -536,8 +535,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="452">
-            <caret line="79" column="18" lean-forward="false" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+          <first_editor relative-caret-position="272">
+            <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
             <folding />
           </first_editor>
           <second_editor />
