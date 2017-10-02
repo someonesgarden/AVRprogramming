@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/AVRPrograming/lib/lcd_sc1602bs.c" charset="Shift_JIS" />
+    <file url="file://$PROJECT_DIR$/AVRPrograming/lib/lcd_sc1602bs.h" charset="Shift_JIS" />
     <file url="file://$PROJECT_DIR$/AVRPrograming/lib/sw.c" charset="Shift_JIS" />
     <file url="file://$PROJECT_DIR$/AVRPrograming/lib/timer.c" charset="Shift_JIS" />
     <file url="file://$PROJECT_DIR$/AVRPrograming/lib/vram.c" charset="Shift_JIS" />
     <file url="file://$PROJECT_DIR$/AVRPrograming/lib/vram.h" charset="Shift_JIS" />
-    <file url="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168_ledgame.c" charset="Shift_JIS" />
+    <file url="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_i2c-masterReceiver_8MHz.c" charset="Shift_JIS" />
+    <file url="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_i2c_slaveTransmitter_8MHz.c" charset="Shift_JIS" />
     <file url="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_ir_remocon.c" charset="Shift_JIS" />
+    <file url="file://$PROJECT_DIR$/AVRPrograming/mega168p/mega168p_ledgame.c" charset="Shift_JIS" />
+    <file url="file://$USER_HOME$/Downloads/7.0/i2c_sender_mega168p/i2c_sender_mega168p/i2c-masterReceiver_8MHz.c" charset="Shift_JIS" />
+    <file url="file://$USER_HOME$/Downloads/7.0/i2c_sender_mega168p/i2c_sender_mega168p/i2c_slaveTransmitter_8MHz.c" charset="Shift_JIS" />
   </component>
 </project>
