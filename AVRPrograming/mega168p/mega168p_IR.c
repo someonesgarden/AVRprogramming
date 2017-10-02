@@ -7,8 +7,8 @@
  */ 
 
 #include <avr/io.h>
-#include "../../../Downloads/7.0/atmega168IRtest/atmega168IRtest/remote.h"
-#include "../../../Downloads/7.0/atmega168IRtest/atmega168IRtest/lcd.h"
+#include "../lib/remote.h"
+#include "../lib/lcd.h"
 
 
 int mega168p_IR

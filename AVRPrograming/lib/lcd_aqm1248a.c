@@ -3,8 +3,6 @@
 // by takuya matsubara
 // http://nicotak.com
 //
-// ¤—p—˜—pEÄ”z•z‚Í©—R‚É‚Å‚«‚Ü‚·B
-// ‰ü‘¢‚µ‚Ä”z•z‚·‚éê‡‚É‚Í‚í‚©‚è‚â‚·‚¢Œ`‚Å–¾‹L‚µ‚Ä‚­‚¾‚³‚¢B
 //--------------------------------------------------------------------
 
 #include <avr/io.h>
@@ -14,7 +12,7 @@
 #include "vram.h"
 
 #ifndef F_CPU
-	#define F_CPU 8000000	// CPUƒNƒƒbƒNü”g”[Hz]
+	#define F_CPU 8000000	// CPUï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½gï¿½ï¿½[Hz]
 #endif
 #include "timer.h"
 

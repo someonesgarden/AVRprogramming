@@ -11,8 +11,8 @@
 #include <avr/sleep.h>		/*for ADC sleep mode */
 #include <math.h>			/* for round() and floor() */
 
-#include "../../../../Downloads/7.0/voltMeterMega168p/voltMeterMega168p/pinDefines.h"
-#include "../../../../Downloads/7.0/voltMeterMega168p/voltMeterMega168p/USART.h"
+#include "../lib/pinDefines.h"
+#include "../lib/USART.h"
 
 /* Note: This voltmeter is only as accurate as your reference voltage. */
 #define REF_VCC 5.053

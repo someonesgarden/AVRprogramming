@@ -12,7 +12,7 @@
 #define     RTC_ADDR_READ	0xA3	// RTC�ǂݏo���A�h���X
 
 
-int main(void)
+int mega168p_SPI_LCD(void)
 {
 	//i2c
 	initI2C();
@@ -23,7 +23,7 @@ int main(void)
 	lcd_init();
 	
 	//RTC
-	uint8_t data[16];	// ��M�f�[�^�i�[�p
+	uint8_t data[16];
 	Rtc_init( data );	// RTC���W���[��������
 	sei();	// (RTC)���荞�݋���
 	
