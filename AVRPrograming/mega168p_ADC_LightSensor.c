@@ -18,7 +18,8 @@ static inline void initADC0(void){
 	ADCSRA |= (1<<ADEN);  /* Enable ADC */ 
 }
 
-int ADC_LightSensor_Mega168(void)
+//MAIN
+int mega168p_ADC_LightSensor(void)
 {
     //---- Inits ---//
 	uint8_t ledValue;
