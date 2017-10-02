@@ -9,8 +9,8 @@
 #include <avr/power.h>
 #include <util/delay.h>
 #include <avr/interrupt.h>
-#include "pinDefines.h"
-#include "scale16.h"
+#include "../lib/pinDefines.h"
+#include "../lib/scale16.h"
 
 #define COUNTER_VALUE 3  /*Determines carrier frequency */
 

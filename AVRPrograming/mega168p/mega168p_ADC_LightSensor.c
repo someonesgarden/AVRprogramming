@@ -7,8 +7,8 @@
 
 #include <avr/io.h>
 #include <util/delay.h>
-#include "pinDefines.h"
-#include "USART.h"
+#include "../lib/pinDefines.h"
+#include "../lib/USART.h"
 
 
 //----- Functions ---- //
