@@ -1,1 +1,16 @@
-# AVRprogramming
+## AVRprogramming
+ATMEL STUDIOの設定方法。
+
+#### CKDIV8   
+Device ProgrammingのFusesにCKDIV8のチェックボックスがある。
+ここからMakeFileを修正できる。
+- 1Mhz チェックが入っている： F_CPU=1000000UL(1x10^6)
+- 8Mhz チェックが入ってない： F_CPU=8000000UL(8x10^6)
+
+#### 外部クロックから16MHzを供給する場合
+１）CKDIV8のチェックをはずす。
+２）SUT_CKSELをEXTXOSC_8MHZ_XX_16KCK_14CK_65MS
+
+#### atmega168pの場合の※デフォルト値は以下：
+- Int.RC Osc 8MHz; Start-up Time PWRDWN/RESET; 6CK/14CK+0ms;
+-  表記は「INTRCOSC_8MHZ_6CK_14CK_0MS」
