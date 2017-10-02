@@ -4,8 +4,9 @@ ATMEL STUDIOの設定方法。
 #### CKDIV8   
 Device ProgrammingのFusesにCKDIV8のチェックボックスがある。
 ここからMakeFileを修正できる。
-- 1Mhz チェックが入っている： F_CPU=1000000UL(1x10^6)
-- 8Mhz チェックが入ってない： F_CPU=8000000UL(8x10^6)
+ATMega168は、初期状態で８MHｚなので：
+- チェックが入っている（さらに8分の一。1MHz）： F_CPU=1000000UL(1x10^6)
+- チェックが入ってない（そのまま。8MHz）： F_CPU=8000000UL(8x10^6)
 
 #### 外部クロックから16MHzを供給する場合
 １）CKDIV8のチェックをはずす。
